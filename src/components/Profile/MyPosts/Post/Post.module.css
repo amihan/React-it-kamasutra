@@ -5,10 +5,23 @@
     margin: 0 0 10px 0;
     border-radius: 10px;
     max-width: 300px;
+    padding: 0 0 5px 0;
 }
 .post__image{
     border-radius:50%;
     max-width: 50px;
     margin: 0 10px 0 0;
     vertical-align: top;
+}
+.post__content{
+    display: inline-block;
+}
+.post__like{
+    display: inline-block;
+    max-width: 70px;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    margin: 0 0 0 220px;
+    display: flex;
+    justify-content: center;
 }

@@ -1,13 +1,14 @@
 import s from './Post.module.css'
 
-const Post = () => {
+const Post = (props) => {
     return (
         <div className={s.post}>
-            <img src="https://pixelbox.ru/wp-content/uploads/2020/12/ava-vk-cats-92.jpg" className={s.post__image}/>
-            <span>
-                Post 1
-            </span>
-            <div>like</div>
+            <img src={props.source} className={s.post__image}/>
+            <div className={s.post__content}>
+                {props.name} <br/>
+                {props.message}
+            </div>
+            <div className={s.post__like}>{props.like} like</div>
         </div>
     )
 }
