@@ -1,0 +1,14 @@
+.post{
+    color:white;
+    align-items: center;
+    background-color: burlywood;
+    margin: 0 0 10px 0;
+    border-radius: 10px;
+    max-width: 300px;
+}
+.post__image{
+    border-radius:50%;
+    max-width: 50px;
+    margin: 0 10px 0 0;
+    vertical-align: top;
+}
