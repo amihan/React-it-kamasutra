@@ -4,7 +4,7 @@ const Item = (props) => {
     return (
         <div className={s.item}>
             <img src="" alt=""/>
-            <a href="#">{props.value}</a>
+            <a href={props.source}>{props.value}</a>
         </div>
     )
 }

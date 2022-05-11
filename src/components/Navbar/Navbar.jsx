@@ -4,11 +4,11 @@ import s from './Navbar.module.css'
 const Navbar = () => {
     return(
         <nav className={s.nav}>
-            <Item value="Profile"/>
-            <Item value="Messages"/>
-            <Item value="News"/>
-            <Item value="Music"/>
-            <Item value="Settings"/>
+            <Item source='/profile' value="Profile"/>
+            <Item source='/dialogs' value="Messages"/>
+            <Item source='#' value="News"/>
+            <Item source='#' value="Music"/>
+            <Item source='#' value="Settings"/>
         </nav>
     )
 }
