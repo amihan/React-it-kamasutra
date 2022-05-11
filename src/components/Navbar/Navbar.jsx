@@ -6,9 +6,9 @@ const Navbar = () => {
         <nav className={s.nav}>
             <Item source='/profile' value="Profile"/>
             <Item source='/dialogs' value="Messages"/>
-            <Item source='#' value="News"/>
-            <Item source='#' value="Music"/>
-            <Item source='#' value="Settings"/>
+            <Item source='/news' value="News"/>
+            <Item source='/music' value="Music"/>
+            <Item source='/settings' value="Settings"/>
         </nav>
     )
 }
